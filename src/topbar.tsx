@@ -7,7 +7,7 @@ export default class Topbar extends React.Component {
     public render(): JSX.Element {
         return (
             <div className="topbar">
-                <TopbarLink text="Records" to={Path.Records} />
+                <TopbarLink active text="Records" to={Path.Records} />
                 <TopbarLink text="Messages" to={Path.Messages} />
                 <TopbarLink text="Battles" to={Path.Battles} />
                 <TopbarLink text="Search" to={Path.Search} />

@@ -1,0 +1,9 @@
+.topbar-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+.topbar-link[data-active="true"] {
+    text-decoration: underline;
+}
